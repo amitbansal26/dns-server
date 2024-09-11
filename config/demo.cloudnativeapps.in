@@ -1,0 +1,14 @@
+$TTL 2d
+$ORIGIN demo.cloudnativeapps.in.
+
+@               IN      SOA         ns.demo.cloudnativeapps.in.     info.cloudnativeapps.in. (
+
+                                    2024122800     ; serial
+                                    12h            ; refresh 
+                                    15m            ; retry
+                                    3w             ; expiry
+                                    2h             ; minimum ttl    
+                                    )
+
+                IN      NS          ns.cloudnativeapss.in.
+ns              IN      A           192.168.1.15
